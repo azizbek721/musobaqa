@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Nunito+Sans:wght@300&family=Work+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    color: #333;
+}
+.left p{
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+.contact{
+    /* width: 36px;
+    height: 108px; */
+    padding: 8px 25px;
+    background: #39CDCC;
+    color: black;
+    border: none;
+    transform: rotate(90deg);
+    margin: 50px 0 0 -50px;
+    border-top-right-radius: 12px;
+}
+.right{
+    margin-top: -100px;
+}
+.right2{
+    margin-top: 20px;
+}
+.left2{
+    margin-top: 70px;
+}
+.right img{
+    height: 360px;
+}
+.card-top{
+    height: 12px;
+    width: 282px;
+    background: #582EFF;
+}
+.card-top2{
+    height: 12px;
+    width: 282px;
+    background: #FF814A;
+}
+.card-top3{
+    height: 12px;
+    width: 288px;
+    background: #31C5A1;
+}
+.col{
+    height: 330px;
+}
+.h-100{
+    width: 288px;
+    
+}
+.card-body img{
+    position: relative;
+    left: 5rem;
+    margin-top: 30px;
+}
+.card-text{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.card-text2-2{
+    display: flex;
+    margin-left: 13px;
+    align-items: center;
+}
+.card-text2-1{
+    display: flex;
+    margin-left: 13px;
+    align-items: center;
+}
+.tumbler{
+    position: relative;
+    top: 10rem;
+    left: 1em;
+}
+footer{
+    margin-top: 30px;
+}
+.footer-inner{
+    height: 370px;
+    background: #31C5A1;
+}
+.footer-text{
+    font-size: 30px;
+    color: white;
+    font-weight: 200;
+    position: relative;
+    right: 5rem;
+}
+.footer2{
+    height: 232px;
+}
+.foot-ul li{
+    list-style: none;
+}
+.foot-ul a{
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    color: #333;
+}
+.footer2-text{
+    font-family: 'Work Sans', sans-serif;
+    color: #333;
+}
+
+@media (max-width: 767px) and (min-width: 375px){
+    .box img{
+        width: 260px;
+    }
+}
